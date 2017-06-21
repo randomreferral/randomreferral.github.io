@@ -1,0 +1,42 @@
+<head>
+
+<title>Loading  ...</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="white">
+<meta name = "viewport" content = "initial-scale = 1.0">
+
+<script defer>
+var randomlinks=new Array()
+
+randomlinks[0]="http://google.com"
+randomlinks[1]="https://www.reddit.com/r/NoContract/comments/6ijbih/is_there_any_interest_a_random_referral_link/"
+randomlinks[2]="http://apple.com"
+randomlinks[3]="http://yahoo.com"
+randomlinks[5]="http://msn.com"
+
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+
+</script>
+
+<style>
+html,body {
+	vertical-align: middle;
+}
+
+a, a:hover, a:active, a:visited {
+	color: blue;
+	text-decoration: none;
+}
+</style>
+</head>
+
+
+<body><center>
+
+<body onload="randomlink()">
+
+<a href="javascript:randomlink()">Click here if you're not redirected in 10 seconds</a>
+</center></body>
