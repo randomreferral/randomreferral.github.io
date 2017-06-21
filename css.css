@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+@import url('SlideOut/SlideOut.css');
+
+html,body {
+	background-color: #dfdfdf;
+}
+
+
+a:link {
+    color: blue;
+	    text-decoration: none;
+}
+a:visited {
+    color: blue;
+	    text-decoration: none;
+}
+a:hover {
+    color: blue;
+	    text-decoration: none;
+}
+a:active {
+    color: blue;
+	    text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 10;
+  left: 0;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: black;
+}
+
+.placeholder {
+	margin-top: 150px;
+}
+
+.Button {
+	width: 400px;
+	height: 150px;
+	border-radius: 13px;
+	box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.06);
+	font-family: 'Roboto';
+	text-align: center;
+	vertical-align: middle;
+	line-height: 220px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media only screen and (max-width: 500px) { 
+  .Button {
+  	width: 95%;
+	}
+}
+
+.Button:active {
+	box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0);
+}
+
+#PhoneCarriers {
+    color: white;
+    background: url(img/cell.svg);
+    background-position-y: 20px;
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#PhoneCarriers, .SlideOut-header {
+	background-color: orange;
+}
